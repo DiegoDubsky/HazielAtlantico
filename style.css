@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:wght@400;700&display=swap");
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+#footer {
+    background-color: rgb(34, 67, 122) !important;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 5px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(27 33 92), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+
+:root{
+    --promo_bc: black;
+    --promo_c: gray;
+}
+
+.center {
+    margin: 1rem auto;
+
+    text-align: center;
+}
+
+.promo {
+    border: 2px solid #710404;
+    border-radius: 4rem;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1rem;
+
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #393939;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    color: #ffa330;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.btn-lg {
+    padding: 0px !important;
+}
+
+.nombre_propiedad {
+    font-weight: bold;
+    width: 100px;
+}
+
+.alquiler {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .alquiler {
+        width: 80%;
+    }
+}
+
+#carousel {
+    position: relative;
+    height: 100%;
+}
+
+#carousel .overlay {
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.black-alpha {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#carousel .row,
+#carousel .container {
+    height: 100%;
+}
+
+.carousel-inner {
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #2a4574;
+    font-weight: bold !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid grey;
+    color: #ffa330;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.secFotos {
+    background-color: aliceblue;
+    border-radius: 0px 0px 15px 15px;
+    border: 1px solid grey;
+    top: -10px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secFotos img {
+    height: auto;
+    width: 90%;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    flex-grow: 1;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgba(47, 47, 47, 0.1), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+
+@media (min-width: 992px) {
+    .secFotos img {
+        height: 320px;
+        width: auto;
+    }
+
+    .alquiler {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .secFotos img {
+        height: 390px;
+        width: auto;
+    }
+}
+
+.img_less_width {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .img_less_width {
+        width: 30% !important;
+        height: auto !important;
+    }
+}
+
+.up_icon {
+    margin: 10px;
+}
+
+.boton_consultar {
+    font-size: 18px !important;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+ul {
+    font-size: 21px;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-haziel {
+    /* background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472); */
+    background-color: rgb(34, 67, 122) !important;
+    color: rgb(180 182 243);
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(27 33 92), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+
+html {
+    scroll-padding-top: 70px;
+    /* height of sticky header */
+}
+
+/* WHATSAPP */
+
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+}
+
+svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+circle {
+    fill: #25d366;
+}
+
+path {
+    fill: #fff;
+}
+
+/* WHATSAPP_end */
+
+body {
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.hovermq .nav-link:hover {
+    color: #23d7cf !important;
+    transform: scale(1.15);
+
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    color: rgb(180 182 243) !important;
+    text-decoration: none !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #2259ab !important;
+}
+
+.desde7k {
+    position: relative;
+    top: -10px;
+}
+
+.color_red {
+    color: rgb(131 64 64);
+}
+
+[id]::before {
+    content: "";
+    display: block;
+    height: 70px;
+    margin-top: -70px;
+    visibility: hidden;
+    position: relative;
+    z-index: -1;
+}
